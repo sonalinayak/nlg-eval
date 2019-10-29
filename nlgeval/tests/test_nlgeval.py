@@ -24,6 +24,7 @@ class TestNlgEval(unittest.TestCase):
         self.assertAlmostEqual(0.44434387, scores['METEOR'], places=5)
         self.assertAlmostEqual(0.9070631, scores['ROUGE_L'], places=5)
         self.assertAlmostEqual(0.0, scores['CIDEr'], places=5)
+        self.assertAlmostEqual(0.0, scores['WMD'], places=5)
         self.assertAlmostEqual(0.8375251, scores['SkipThoughtCS'], places=5)
         self.assertAlmostEqual(0.980075, scores['EmbeddingAverageCosineSimilairty'], places=5)
         self.assertAlmostEqual(0.94509, scores['VectorExtremaCosineSimilarity'], places=5)

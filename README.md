@@ -14,6 +14,7 @@ Rows across these files should correspond to the same example.
 - Embedding Average cosine similarity
 - Vector Extrema cosine similarity
 - Greedy Matching score
+- wmd: Word Mover's Distance evaluation codes
 
 ## Requirements ##
 Tested using
@@ -34,6 +35,8 @@ Python 2.7 has also been tested with mostly the same dependencies but an older v
 
 Install Java 1.8.0 (or higher).
 Then run:
+
+For WMD you will also need to download the Google News negative 300 word2vec model for use by WMD. To do this, run: bash get_google_word2vec_model.sh
 
 ```bash
 # Install the Python dependencies.
